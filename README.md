@@ -1,6 +1,6 @@
 # Path Planning 🧭
 
-This project implements a lightweight OpenGL-based viewer for occupancy grids with two built-in planners: **A\*** and **D\* Lite** for dynamic replanning. The planners operate with a circular agent model and handle obstacle avoidance through obstacle inflation, combined with a limited sensing range for detecting previously unknown obstacles. Furthermore, both planners incorporate grid cell traversability into their heuristic functions to improve path quality.
+This project implements a lightweight OpenGL-based viewer for grids maps with two built-in planners: **A\*** and **D\* Lite** for dynamic replanning. The planners operate with a circular agent model and handle obstacle avoidance through obstacle inflation, combined with a limited sensing range for detecting previously unknown obstacles. Furthermore, both planners incorporate grid cell traversability into their heuristic functions to improve path quality.
 
 <div align="center" style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
 	<figure style="margin: 0;">
@@ -28,7 +28,7 @@ sudo apt install build-essential make git python3 python3-glad \
 Clone and build:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/bestavra/Path-Planning.git
 cd path_planning
 make
 make run
