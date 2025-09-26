@@ -31,6 +31,11 @@ Clone and build:
 git clone https://github.com/bestavra/Path-Planning.git
 cd Path-Planning
 make
+```
+
+Run:
+
+```bash
 make run
 ```
 
@@ -66,6 +71,8 @@ src/
 	path/     # A*, D* Lite implementations
 	viewer/   # OpenGL implementations
 data/         # sample .map files
+third_party/
+    glad/     # GLAD library
 ```
 
 ## 🧱 Map Format
