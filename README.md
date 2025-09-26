@@ -16,7 +16,7 @@ This project implements a lightweight OpenGL-based viewer for grids maps with tw
 
 ## ⚙️ Install
 
-Ubuntu 24.04 example:
+Ubuntu 22.04/24.04 example:
 
 ```bash
 sudo apt update
@@ -29,7 +29,7 @@ Clone and build:
 
 ```bash
 git clone https://github.com/bestavra/Path-Planning.git
-cd path_planning
+cd Path-Planning
 make
 make run
 ```
