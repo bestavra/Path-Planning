@@ -2,7 +2,7 @@
 
 This project implements a lightweight OpenGL-based viewer for grids maps with two built-in planners: **A\*** and **D\* Lite** for dynamic replanning. The planners operate with a circular agent model and handle obstacle avoidance through obstacle inflation, combined with a limited sensing range for detecting previously unknown obstacles. Furthermore, both planners incorporate grid cell traversability into their heuristic functions to improve path quality.
 
-<div align="center" style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+<div align="center" style="display: flex; flex-direction: column; gap: 1.5rem; justify-content: center; align-items: center;">
 	<figure style="margin: 0;">
 		<img src="assets/images/a-star.png" alt="A* planner visualization" width="360" />
 		<figcaption style="margin-top: 0.5rem; font-size: 0.9rem;">A* planner navigating a maze.</figcaption>
